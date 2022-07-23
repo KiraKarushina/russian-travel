@@ -9,7 +9,7 @@ text-align: right;
 text-decoration-line: none;
 color: #FFFFFF;
 }
-@media (max-waigh: 768px) {
+@media (max-width: 768px) {
     .header__lang-link {
         font-size: 18px;
 line-height: 20px;
