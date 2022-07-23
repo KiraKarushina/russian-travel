@@ -1,0 +1,20 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    background: #2A2C2F;
+    opacity: 0.5;
+}
+
+.cover__link:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+

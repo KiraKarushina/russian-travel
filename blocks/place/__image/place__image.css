@@ -1,0 +1,33 @@
+.place__image {
+    flex-basis: 460px;
+    flex-grow: 1;
+    max-width: 460px;
+    margin-right: 24px;
+}
+
+@media screen and (max-width: 320px) {
+    .place__image  {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 768px)
+              and (min-width: 321px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 1024px)
+              and (min-width: 769px) {
+    .place__image {
+        max-width: 440px;
+    
+    }
+}
+ 
+@media (max-width: 768px) {
+    .place__image {
+    padding-bottom: 32px;
+    }
+}
