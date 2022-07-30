@@ -10,9 +10,11 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
+        padding-bottom: 16px;
+        max-width: 288px;
     }
 }

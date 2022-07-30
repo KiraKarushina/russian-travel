@@ -4,14 +4,15 @@
     padding-bottom: 80px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     .place__wrapper {
-        margin-left: 12px;
-        margin-right: 12px;
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .place__wrapper {
-        padding-bottom: 73px;
+        padding-bottom: 0px;
     }
 }

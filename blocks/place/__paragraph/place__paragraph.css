@@ -1,6 +1,5 @@
 .place__paragraph {
     max-width: 456px;
-    max-height: 174px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -11,6 +10,7 @@ margin: 0;
 @media (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
+        max-width: 352px;
     }
 }
 

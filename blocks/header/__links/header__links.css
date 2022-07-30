@@ -1,4 +1,4 @@
-.links {
+.header__links {
     display: flex;
     flex-direction: row;
     gap: 18px;

@@ -1,7 +1,7 @@
 .place__title {
     flex-basis: 460px;
     max-width: 460px;
-    margin: 0px 24px 0px 0px;
+    margin: 0px 40px 0px 0px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -10,13 +10,23 @@
 
 @media (max-width: 1024px) {
     .place__title {
-        font-size: 42px;
-        line-height: 46px;
+        max-width: 440px;
+        margin: 0px 32px 0px 0px;
     }
 }
 @media (max-width: 768px) {
     .place__title {
+        margin: 0px 28px 0px 0px;
+        max-width: 340px;
+        font-size: 42px;
+line-height: 46px;
+    }
+}
+@media (max-width: 320px) {
+    .place__title {
+        max-width: 288px;
         font-size: 32px;
-line-height: 35px;
+        line-height: 35px;
+        margin-bottom: 32px;
     }
 }

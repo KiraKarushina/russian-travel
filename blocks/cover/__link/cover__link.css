@@ -3,18 +3,48 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+    min-height: 740px;
+    background-image: url(../../../images/backgroundtrains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ box-sizing: border-box;
+ text-decoration: none;
+ z-index: 0;
+ position: relative;
+ color: #fff;
+}
+
+.cover__link::before {
+    content: "";
     position: absolute;
-    text-decoration: none;
-    z-index: 0;
-    height: 100%;
+    top: 0;
+    left: 0;
     width: 100%;
-    bottom: 0%;
-    background: #2A2C2F;
-    opacity: 0.5;
-}
-
-.cover__link:hover {
-    opacity: 0.8;
+    height: 100%;
+    background-color: #2a2c2f;
+    z-index: -1;
+    opacity: 0.3;
     transition: opacity 0.3s ease;
-}
+  }
 
+  .cover__link:hover::before {
+opacity: 0.8;
+  }
+
+  @media screen and (max-width: 1024px) {
+      .cover__link {
+          min-height: 640px;
+      }
+    }
+@media screen and (max-width: 768px) {
+    .cover__link {
+        min-height: 480px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover__link {
+        min-height: 200px;
+    }
+}

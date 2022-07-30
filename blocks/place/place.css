@@ -10,10 +10,12 @@
 @media (max-width: 768px) {
     .place {
         padding-top: 73px;
+        
     }
 }
 @media (max-width: 320px) {
     .place {
-        padding-top: 50px;
+        padding-top: 0;
+       
     }
 }
