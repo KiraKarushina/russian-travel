@@ -4,16 +4,26 @@
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     padding-top: 92px;
     padding-bottom: 92px;
+    margin: auto;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
     .photo-grid {
-    padding-top: 88px;
-    padding-bottom: 15px;
+        width: 928px;
     }
 }
-@media (max-width: 320px) {
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
     .photo-grid {
+        width: 720px;
+        padding-top: 88px;
+    padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        width: 288px;
         padding-top: 64px;
         padding-bottom: 64px;
     }

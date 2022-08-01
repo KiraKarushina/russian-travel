@@ -5,5 +5,7 @@
 @media (max-width: 320px) {
     .place__paragraphs {
         max-width: 320px;
+        margin-left: 16px;
+    margin-right: 16px;
     }
 }

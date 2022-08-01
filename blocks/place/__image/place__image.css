@@ -2,6 +2,7 @@
     flex-basis: 460px;
     flex-grow: 1;
     max-width: 460px;
+    max-height: 460px;
     min-width: 300px;
     padding-right: 40px;
 }
@@ -9,6 +10,10 @@
 @media screen and (max-width: 320px) {
     .place__image  {
         max-width: 320px;
+        max-height: 320px;
+        padding-bottom: 32px;
+        padding-left: 0;
+    padding-right: 0;
     }
 }
 
@@ -16,6 +21,8 @@
               and (min-width: 321px) {
     .place__image {
         max-width: 340px;
+        max-height: 340px;
+        padding-right: 28px;
     }
 }
 
@@ -23,16 +30,13 @@
               and (min-width: 769px) {
     .place__image {
         max-width: 440px;
+        max-height: 440px;
+        padding-right: 32px;
     }
 }
  
-@media (max-width: 320px) {
-    .place__image {
-    padding-bottom: 32px;
-
-    }
-}
-@media (max-width: 1024px) {
+@media  screen and (max-width: 1280px)
+and (min-width: 1025px) {
     .place__image {
         padding-right: 32px;
     }
