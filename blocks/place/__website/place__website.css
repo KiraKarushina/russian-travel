@@ -1,9 +1,0 @@
-.place__website {
-    align-self: flex-end;
-}
-
-@media (max-width: 768px) {
-    .place__website {
-        align-self: auto;
-    }
-}
